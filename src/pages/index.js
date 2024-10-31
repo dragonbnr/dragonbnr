@@ -6,6 +6,9 @@ import ContactSection from '../components/Home/ContactSection';
 import Footer from '../components/Footer';
 import SolucionesSection from '@/components/Home/SolucionesSection';
 import SeguridadSection from '@/components/Home/SeguridadSection';
+import Aliados from '@/components/Home/Aliados';
+import Testimonios from '@/components/Home/Testimonios';
+import Redes from '@/components/Home/Redes';
 
 export default function Home() {
   return (
@@ -13,8 +16,9 @@ export default function Home() {
       <HeroSection />
       <SeguridadSection />
       <SolucionesSection />
+      <Aliados/>
       <TestimonialsSection />
-      <ContactSection />
+      <Redes />
       <Footer />
     </>
   );
