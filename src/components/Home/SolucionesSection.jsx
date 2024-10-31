@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const ServicesSection = () => {
+const SolucionesSection = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -15,4 +15,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default SolucionesSection;
