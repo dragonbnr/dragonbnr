@@ -19,7 +19,6 @@ export default function Home() {
       <Aliados/>
       <TestimonialsSection />
       <Redes />
-      <Footer />
     </>
   );
 }

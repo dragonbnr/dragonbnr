@@ -2,8 +2,8 @@ import React from 'react'
 
 function BlackButton({texto}) {
   return (
-    <div className="w-[188.08px] h-[61.50px] px-[35.58px] py-[15.25px] bg-black rounded-[20.33px] justify-center items-center inline-flex">
-    <div className="text-[#fff9f9] text-[25.42px] font-medium font-['Inter'] leading-[30.50px]">{texto}</div>
+<div className="w-[102.11px] h-[30.26px] pl-[15.13px] pr-[17.98px] pt-[7.56px] pb-[6.69px] bg-black rounded-[10.09px] justify-center items-center inline-flex z-10">
+    <div className="text-[#fff9f9] text-xs font-medium font-['Inter'] leading-[15.13px]">{texto}</div>
 </div>
   )
 }
