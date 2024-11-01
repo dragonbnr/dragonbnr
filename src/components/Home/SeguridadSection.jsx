@@ -30,7 +30,7 @@ function SeguridadSection() {
           className="object-cover "
         />
       </div>
-      <RedButton texto="Conócenos" />
+      <RedButton texto="Conócenos" url="/Conocenos" />
     </div>
   );
 }

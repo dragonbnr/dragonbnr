@@ -31,7 +31,7 @@ function Quienes() {
           className="object-cover "
         />
       </div>
-      <BlackButton texto="Conócenos" />
+      <BlackButton texto="Conócenos" url="/Conocenos" />
     </div>
   );
 }

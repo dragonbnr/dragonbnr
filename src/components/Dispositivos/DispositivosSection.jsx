@@ -82,7 +82,7 @@ function DispositivosSection() {
       Los guardias intramuros pasan mediante filtros en el área de selección de personal, para contar con los elementos más aptos para desarrollar sus funciones, cumpliendo cabalmente con las actividades encomendadas, y siendo supervisados por sus superiores, respetando las reglas y adaptándose a cada sector donde se prestará el servicio.
       </p>
      
-      <RedButton texto="Ver servicios " />
+      <RedButton texto="Ver servicios " url="/Servicios" />
       
     
     </div>

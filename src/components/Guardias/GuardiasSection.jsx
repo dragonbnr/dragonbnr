@@ -83,7 +83,7 @@ function GuardiasSection() {
       Cada cliente es único y tiene necesidades diferentes, es por ello que tratamos de ofrecer nuestros servicios personalizados, para brindar las soluciones óptimas y manteniendo una confidencialidad en todo momento, limitando el acceso de información a terceras personas. 
 
       </p>
-      <RedButton texto="Ver servicios " />
+      <RedButton texto="Ver servicios " url="/Servicios" />
       
     
     </div>

@@ -51,7 +51,7 @@ font-bold">servicios de seguridad</span><br/>
 text-[33.28px]
 font-bold">altamente capacitado</span>
             </h2>
-            <RedButton texto="Contáctanos" />
+            <RedButton texto="Contáctanos" url="/Contacto" />
         </div>
     </div>
   )

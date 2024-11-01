@@ -28,7 +28,7 @@ const Cotiza = () => {
 <span className="text-[#ca1b2e]  ">aquí</span> 
 </p>
         </h1>
-        <RedButton texto="Contáctanos " />
+        <RedButton texto="Contáctanos " url="/Contacto"/>
     
         </div>
       </div>
