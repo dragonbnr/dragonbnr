@@ -32,7 +32,7 @@ function ServiciosSection() {
      Guardias capacitados para brindar seguridad profesional en instalaciones o bienes.
       </p>
       
-      <BlackButton texto="Ver más" />
+      <BlackButton texto="Ver más" url="/Servicios/Guardias" />
       <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
         <Image
           src="/images/servicios/serviciossection/dispositivos.png"
@@ -52,7 +52,7 @@ function ServiciosSection() {
 
       </p>
       
-      <BlackButton texto="Ver más" />
+      <BlackButton texto="Ver más" url="/Servicios/Dispositivos" />
     </div>
   );
 }
