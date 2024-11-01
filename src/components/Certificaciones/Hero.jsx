@@ -10,6 +10,7 @@ function Hero() {
         objectFit='cover'
         objectPosition='center'
         alt="Background"
+        quality={100}
         />
       </div>
       <h1 className="text-white text-[40.51px] font-semibold z-10 text-center leading-8">

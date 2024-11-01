@@ -9,6 +9,7 @@ function MisionVision() {
         <Image src={"/images/conocenos/mision/bg.png"}
         layout='fill'
         objectFit='cover'
+        quality={100}
         objectPosition='center'
         alt="Background"
         />
@@ -18,6 +19,7 @@ function MisionVision() {
           src="/images/conocenos/mision/mision.png"
           width={1500}
           height={1500}
+          quality={100}
           alt="Guardias"
           className="object-cover "
         />
@@ -35,6 +37,7 @@ function MisionVision() {
           width={1500}
           height={1500}
           alt="Guardias"
+          quality={100}
           className="object-cover "
         />
       </div>

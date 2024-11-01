@@ -9,6 +9,7 @@ function GuardiasSection() {
          <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/guardias/bg.png"}
         layout='fill'
+        quality={100}
         objectFit='cover'
         objectPosition='center'
         alt="Background"
@@ -18,6 +19,7 @@ function GuardiasSection() {
       <div className="w-[200px] h-[205px]">
         <Image
           src="/images/guardias/guardias.png"
+          quality={100}
           width={1500}
           height={1500}
           alt="Guardias"
@@ -27,6 +29,7 @@ function GuardiasSection() {
         <div className="w-[200px] h-[205px]">
         <Image
           src="/images/guardias/guardias2.png"
+          quality={100}
           width={1500}
           height={1500}
           alt="Guardias"

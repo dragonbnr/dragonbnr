@@ -6,6 +6,7 @@ function Hero() {
     <div className="h-[452px] w-full flex justify-center items-center relative">
          <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/contacto/bg.png"}
+        quality={100}
         layout='fill'
         objectFit='cover'
         objectPosition='center'

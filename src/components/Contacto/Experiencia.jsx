@@ -11,6 +11,7 @@ const Experiencia  = ({setForm}) => {
         <Image src={"/images/contacto/experiencia/bg.png"}
         layout='fill'
         objectFit='cover'
+        quality={100}
         objectPosition='center'
         alt="Background"
 

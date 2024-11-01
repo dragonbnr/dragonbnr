@@ -8,6 +8,7 @@ function Permisos() {
     <div className="w-full h-auto flex flex-col justify-center items-center text-center bg-black py-10 relative">
          <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/certificaciones/permisos/bg.png"}
+        quality={100}
         layout='fill'
         objectFit='cover'
         objectPosition='center'
@@ -28,6 +29,7 @@ function Permisos() {
 
       <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
         <Image
+        quality={100}
           src="/images/certificaciones/permisos/permiso.jpg"
           width={1500}
           height={1500}
@@ -42,6 +44,7 @@ function Permisos() {
     <div className="grid grid-cols-3 gap-4 z-10">
   <div className="flex justify-center items-center">
     <Image
+    quality={100}
       src="/images/certificaciones/instituciones/imss.png"
       width={100}
       height={100}
@@ -51,6 +54,7 @@ function Permisos() {
   </div>
   <div className="flex justify-center items-center">
     <Image
+    quality={100}
       src="/images/certificaciones/instituciones/trabajo.png"
       width={100}
       height={100}
@@ -60,6 +64,7 @@ function Permisos() {
   </div>
   <div className="flex justify-center items-center">
     <Image
+    quality={100}
       src="/images/certificaciones/instituciones/infonavit.png"
       width={100}
       height={100}
@@ -69,6 +74,7 @@ function Permisos() {
   </div>
   <div className="flex justify-center items-center">
     <Image
+    quality={100}
       src="/images/certificaciones/instituciones/schp.png"
       width={100}
       height={100}
@@ -78,6 +84,7 @@ function Permisos() {
   </div>
   <div className="flex justify-center items-center">
     <Image
+    quality={100}
       src="/images/certificaciones/instituciones/seguridad.png"
       width={100}
       height={100}
@@ -87,6 +94,7 @@ function Permisos() {
   </div>
   <div className="flex justify-center items-center">
     <Image
+    quality={100}
       src="/images/certificaciones/instituciones/sat.png"
       width={100}
       height={100}

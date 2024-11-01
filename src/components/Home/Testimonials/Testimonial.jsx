@@ -6,7 +6,7 @@ function Testimonial() {
     <div className="w-[232px] h-[99px] flex justify-center items-center  bg-[#282828] gap-3 px-1 rounded-[16px]">
   
     <div className="w-[48.61px] h-[48.61px] justify-center items-center inline-flex">
-        <Image width={"119"} height={'119'} className="w-full h-full relative rounded-[20.23px]" src="" />
+        <Image width={"119"} height={'119'} quality={100}className="w-full h-full relative rounded-[20.23px]" src="" />
     </div>
 
     <div className="flex-col">

@@ -6,6 +6,7 @@ const SolucionesSection = () => {
     <div className="w-full h-auto flex flex-col relative justify-center items-center py-[37px]">
       <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/home/soluciones/bg.png"}
+        quality={100}
         layout='fill'
         objectFit='cover'
         objectPosition='center'

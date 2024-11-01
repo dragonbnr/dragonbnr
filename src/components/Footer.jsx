@@ -11,6 +11,7 @@ const Footer = () => {
           src="/images/logo.png" // Reemplaza con la ruta de tu logo
           width={150}
           height={150}
+          quality={100}
           alt="Dragon Black & Red"
           className="mx-auto mb-4"
         />

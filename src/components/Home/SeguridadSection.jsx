@@ -7,6 +7,7 @@ function SeguridadSection() {
     <div className="w-full h-auto flex flex-col justify-center items-center text-center bg-black py-10 relative">
          <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/home/seguridad/bg.png"}
+        quality={100}
         layout='fill'
         objectFit='cover'
         objectPosition='center'
@@ -22,6 +23,7 @@ function SeguridadSection() {
       <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
         <Image
           src="/images/home/seguridad/guardias.png"
+          quality={100}
           width={1500}
           height={1500}
           alt="Guardias"

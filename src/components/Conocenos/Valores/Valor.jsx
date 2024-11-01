@@ -7,7 +7,9 @@ function Valor({icono, texto}) {
     >
       <div className="flex items-center pl-4 ">
         <div className="w-[37px] h-[40px] ">
-        <Image src={icono} alt="icono" width={30} height={30} />
+        <Image 
+        quality={100}
+        src={icono} alt="icono" width={30} height={30} />
         </div>
         <div className="mt-2">
 

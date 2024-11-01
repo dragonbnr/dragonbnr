@@ -7,6 +7,7 @@ function Hero() {
          <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/servicios/hero/bg.png"}
         layout='fill'
+        quality={100}
         objectFit='cover'
         objectPosition='center'
         alt="Background"

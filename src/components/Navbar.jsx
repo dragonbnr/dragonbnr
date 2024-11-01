@@ -17,7 +17,7 @@ function Navbar() {
       <div className="w-full h-[78px] flex justify-between items-center px-4 md:px-10 relative max-w-[1440px] min-w-sm mx-auto bg-black">
         {/* Logo */}
         <div className="relative z-10 w-[34px] h-[48.86px]">
-          <Image src="/images/logo.png" width={150} height={150} alt="Logo" className="w-[34px] h-[48.86px] object-cover  " />
+          <Image src="/images/logo.png" quality={100} width={150} height={150} alt="Logo" className="w-[34px] h-[48.86px] object-cover  " />
         </div>
 
         {/* Ícono del menú en versión móvil */}
@@ -52,7 +52,7 @@ function Navbar() {
 
           {/* Logo */}
           <div className="w-full flex justify-center ">
-            <Image src="/images/logo.png" width={156} height={161} alt="Logo" />
+            <Image src="/images/logo.png" quality={100} width={156} height={161} alt="Logo" />
           </div>
 
           {/* Enlaces del menú móvil */}
@@ -102,18 +102,21 @@ function Navbar() {
             {/* Íconos de redes sociales */}
             <div className="flex justify-center space-x-6 mt-8">
               <Image
+              quality={100}
                 src={"/images/iconos/fb.png"}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer"
               />
               <Image
+              quality={100}
                 src={"/images/iconos/instagram.png"}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer"
               />
               <Image
+              quality={100}
                 src={"/images/iconos/linkedin.png"}
                 width={"34"}
                 height={"34"}

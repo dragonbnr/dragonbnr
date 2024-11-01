@@ -10,6 +10,7 @@ function Quienes() {
         layout='fill'
         objectFit='cover'
         objectPosition='center'
+        quality={100}
         alt="Background"
         />
       </div>
@@ -25,6 +26,7 @@ function Quienes() {
           src="/images/conocenos/quienes/guardias.png"
           width={1500}
           height={1500}
+          quality={100}
           alt="Guardias"
           className="object-cover "
         />

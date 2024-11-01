@@ -8,6 +8,7 @@ function Redes() {
          <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/home/redes/bg.png"}
         layout='fill'
+        quality={100}
         objectFit='cover'
         objectPosition='center'
         alt="Background"
@@ -21,18 +22,21 @@ function Redes() {
             <div className="flex justify-center space-x-10 mt-8">
               <Image
                 src={"/images/iconos/fb.png"}
+                quality={100}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer"
               />
               <Image
                 src={"/images/iconos/instagram.png"}
+                quality={100}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer"
               />
               <Image
                 src={"/images/iconos/linkedin.png"}
+                quality={100}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer"

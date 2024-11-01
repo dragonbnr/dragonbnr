@@ -8,6 +8,7 @@ function DispositivosSection() {
     <div className="w-full h-auto flex flex-col justify-center items-center text-center bg-black py-10 relative">
          <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/guardias/bg.png"}
+        quality={100}
         layout='fill'
         objectFit='cover'
         objectPosition='center'
@@ -20,6 +21,7 @@ function DispositivosSection() {
           src="/images/dispositivos/camara.png"
           width={1500}
           height={1500}
+          quality={100}
           alt="Guardias"
           className="object-cover w-full "
         />
@@ -29,6 +31,7 @@ function DispositivosSection() {
           src="/images/dispositivos/camara2.png"
           width={1500}
           height={1500}
+          quality={100}
           alt="Guardias"
           className="object-cover w-full  "
         />
@@ -69,6 +72,7 @@ function DispositivosSection() {
           src="/images/servicios/serviciossection/guardias.png"
           width={1500}
           height={1500}
+          quality={100}
           alt="Guardias"
           className="object-cover "
         />
