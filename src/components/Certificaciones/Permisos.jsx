@@ -15,10 +15,10 @@ function Permisos() {
         alt="Background"
         />
       </div>
-      <h1 className="w-[80%] text-[25px] font-semibold  leading-7 mb-[11px] z-10">
+      <h1 className="w-[80%] text-[25px] font-semibold  leading-7 mb-[11px] z-10 text-black">
       Operamos con respaldo legal y certificaciones, garantizando un servicio seguro y confiable. <br /> 
       </h1>
-      <p className="w-[87%] text-justify  text-[10px] font-normal leading-3 mb-4 z-10">
+      <p className="w-[87%] text-justify  text-[10px] font-normal leading-3 mb-4 z-10 text-black">
       Proveemos sistemas de videovigilancia de alta resolución, conectados a un sistema central para monitoreo y grabación en tiempo real, ideales para cubrir puntos vulnerables. Ofrecemos instalación profesional con garantía extendida, realizada por técnicos certificados que, tras un análisis previo, colocan los equipos en ubicaciones estratégicas. Además, contamos con monitoreo de alarmas, control de acceso vehicular y peatonal, cercas electrificadas, video porteros y sensores de movimiento, permitiendo un control remoto 24/7 desde cualquier lugar del mundo.
 
       </p>
