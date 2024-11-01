@@ -30,9 +30,9 @@ function Navbar() {
         </div>
 
         {/* Enlaces del centro para versión de escritorio */}
-        <div className="hidden md:flex gap-x-6 font-anton uppercase absolute left-1/2 transform -translate-x-1/2">
+        <div className="hidden md:flex gap-x-6 font-anton uppercase absolute left-1/2 transform -translate-x-1/2 text-white">
           <Link href="/">Inicio</Link>
-          <Link href="/About">Acerca De</Link>
+          <Link href="/Conocenos">Conocenos</Link>
           <Link href="/Shop">Tienda</Link>
         </div>
 
@@ -65,21 +65,21 @@ function Navbar() {
               Inicio
             </Link>
             <Link
-              href="/About"
+              href="/Conocenos"
               onClick={toggleMenu}
               className={router.pathname === "/Conocenos" ? "font-bold" : ""}
             >
               Conocenos
             </Link>
             <Link
-              href="/Shop"
+              href="/Servicios"
               onClick={toggleMenu}
               className={router.pathname === "/Servicios" ? "font-bold" : ""}
             >
               Servicios
             </Link>
             <Link
-              href="/Shop"
+              href="/Certificaciones"
               onClick={toggleMenu}
               className={
                 router.pathname === "/Certificaciones" ? "font-bold" : ""
