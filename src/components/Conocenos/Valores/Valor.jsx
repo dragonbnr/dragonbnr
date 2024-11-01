@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Valor({icono, texto}) {
   return (
-    <div className="w-[165.70px] h-[74px] bg-white rounded-2xl border-l-2 border-[#ca1b2e] flex items-center z-10"
+    <div className="w-[165.70px] h-[74px] text-black bg-white rounded-2xl border-l-2 border-[#ca1b2e] flex items-center z-10"
     >
       <div className="flex items-center pl-4 ">
         <div className="w-[37px] h-[40px] ">
