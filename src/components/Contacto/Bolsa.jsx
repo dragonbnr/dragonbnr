@@ -6,7 +6,9 @@ const Bolsa = () => {
   return (
     <div className="bg-gradient-to-b from-black to-red-900 text-white py-12 px-6 md:px-12 text-center">
       <h2 className=" text-center text-[#ca1b2e] text-[22.67px] leading-[34px] ">Forma parte de</h2>
+      <div className="w-full flex justify-center items-center">
       <Image src={"/images/logoletra.svg"} quality={100} width={340} height={38} alt="linea" />
+      </div>
       <p className="mb-8 text-[10px] text-left mt-6">
       Únete a nuestro equipo de colaboradores y pertenece a la mejor empresa de seguridad privada en México.
       </p>
