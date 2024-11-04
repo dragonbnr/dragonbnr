@@ -2,6 +2,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -18,21 +19,21 @@ const Footer = () => {
         <p className="font-bold text-xl">Dragon Black & Red</p>
         <p className="text-sm italic">Seguridad privada al límite S.A. de C.V.</p>
         <nav className="mt-6 mb-8 space-y-2">
-          <a href="#inicio" className="block hover:underline">Inicio</a>
-          <a href="#conocenos" className="block hover:underline">Conócenos</a>
-          <div className="ml-4">
-            <a href="#quienes-somos" className="block hover:underline">¿Quiénes somos?</a>
-            <a href="#mision" className="block hover:underline">Misión</a>
-            <a href="#vision" className="block hover:underline">Visión</a>
-            <a href="#valores" className="block hover:underline">Valores</a>
+          <Link href="/" className="block hover:underline">Inicio</Link>
+          <Link href="/Conocenos" className="block hover:underline">Conócenos</Link>
+          <div className="">
+            <Link href="/Conocenos" className="block hover:underline">¿Quiénes somos?</Link>
+            <Link href="/Conocenos#mision" className="block hover:underline">Misión</Link>
+            <Link href="/Conocenos#vision" className="block hover:underline">Visión</Link>
+            <Link href="/Conocenos#valores" className="block hover:underline">Valores</Link>
           </div>
-          <a href="#servicios" className="block hover:underline">Servicios</a>
+          <Link href="/Servicios" className="block hover:underline">Servicios</Link>
           <div className="ml-4">
-            <a href="#guardias" className="block hover:underline">Guardias intramuros</a>
-            <a href="#dispositivos" className="block hover:underline">Dispositivos electrónicos</a>
+            <Link href="/Servicios/Guardias" className="block hover:underline">Guardias intramuros</Link>
+            <Link href="/Servicios/Dispositivos" className="block hover:underline">Dispositivos electrónicos</Link>
           </div>
-          <a href="#certificaciones" className="block hover:underline">Certificaciones</a>
-          <a href="#contactanos" className="block hover:underline">Contáctanos</a>
+          <Link href="/Certificaciones" className="block hover:underline">Certificaciones</Link>
+          <Link href="#contactanos" className="block hover:underline">Contáctanos</Link>
         </nav>
         
         <address className="text-sm mb-6">
@@ -43,10 +44,10 @@ const Footer = () => {
         <a href="mailto:dragonblackandredsegprivada@hotmail.com" className="block text-red-500 mb-4 hover:underline">dragonblackandredsegprivada@hotmail.com</a>
         
         <p className="text-sm mb-4">
-          Teléfonos oficina:<br />
-          55 9372 2345<br />
-          55 9372 3664<br />
-          55 9429 0611<br />
+          Teléfonos oficina:
+          <a href="tel:5593722345">55 9372 2345</a> 
+          55 9372 3664
+          55 9429 0611
           55 9429 0624
         </p>
         
