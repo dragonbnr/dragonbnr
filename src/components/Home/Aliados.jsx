@@ -17,17 +17,17 @@ const Aliados = () => {
       </div>
       <div className="flex flex-col justify-center items-center z-10">
         <h1 className="text-[33px] text-center text-white font-bold leading-[40px]">
-  <p>
+  <p className='lg:text-[75px] lg:mb-8'>
 
         <span className="text-[#ca1b2e]  ">Aliados</span> que han
   </p>
-  <p>
+  <p >
 
-        <span className="text-white ">confiado en nuestra</span> 
+        <span className="text-white lg:text-[74px]">confiado en nuestra</span> 
   </p>
   <p>
 
-<span className="text-[#ca1b2e] text-6xl ">seguridad</span> 
+<span className="text-[#ca1b2e] text-6xl lg:text-[137px] ">seguridad</span> 
 </p>
         </h1>
     

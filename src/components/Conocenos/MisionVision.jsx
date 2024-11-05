@@ -4,7 +4,7 @@ import BlackButton from '../Buttons/BlackButton';
 
 function MisionVision() {
   return (
-    <div className="w-full h-auto flex flex-col justify-center items-center text-center bg-black py-10 relative">
+    <div className="w-full h-auto flex flex-col md:flex-row justify-center items-center text-center bg-black py-10 relative">
          <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/conocenos/mision/bg.png"}
         layout='fill'
@@ -14,6 +14,8 @@ function MisionVision() {
         alt="Background"
         />
       </div>
+      
+      <div className='z-10'>
       <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
         <Image
           src="/images/conocenos/mision/mision.png"
@@ -24,6 +26,7 @@ function MisionVision() {
           className="object-cover "
         />
       </div>
+
       <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10">
       Misión <br /> 
       </h1>
@@ -31,6 +34,7 @@ function MisionVision() {
       Ofrecer nuestros servicios de seguridad privada para proteger de forma eficaz, tu familia, bienes, o activos, contando con elementos capacitados para realizar las tareas de manera profesional, brindándote seguridad, y confianza, llevando a cabo transparencia, entre la empresa y el cliente, acompañado de tecnologías que se adaptan a los cambios volátiles de hoy en día. 
 
       </p>
+      </div>
       <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
         <Image
           src="/images/conocenos/mision/vision.png"

@@ -13,7 +13,7 @@ function Hero() {
         alt="Background"
         />
       </div>
-      <h1 className="text-white text-[40.51px] font-semibold z-10 text-center">
+      <h1 className="text-white text-[40.51px] md:text-[50px] font-semibold z-10 text-center md:leading-[50px]">
         Tu seguridad, <br/>
         nuestra <span className="text-[#ca1b2e]">prioridad</span>
         </h1>

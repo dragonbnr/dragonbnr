@@ -111,10 +111,10 @@ const TestimonialsSection = () => {
           />
         </button>
       )}
-      <h1 className="mb-4 text-[26px] text-center text-white">
+      <h1 className="mb-4 text-[26px] lg:text-[48px] text-center text-white">
         Opiniones de <span className="text-[#ca1b2e] ">nuestros clientes</span>
       </h1>
-      <div className="flex  lg:justify-center gap-4 overflow-x-auto relative  w-full no-scrollbar pl-4 lg:pl-0"
+      <div className="w-full flex  lg:justify-center gap-4 overflow-x-auto relative   no-scrollbar pl-4 "
       ref={containerRef}
       >
      
