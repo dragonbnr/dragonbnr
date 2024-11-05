@@ -31,9 +31,38 @@ function Navbar() {
 
         {/* Enlaces del centro para versión de escritorio */}
         <div className="hidden md:flex gap-x-6 font-anton uppercase absolute left-1/2 transform -translate-x-1/2 text-white">
-          <Link href="/">Inicio</Link>
-          <Link href="/Conocenos">Conocenos</Link>
-          <Link href="/Shop">Tienda</Link>
+        <Link
+              href="/"
+              className={router.pathname === "/" ? "font-bold" : ""}
+            >
+              Inicio
+            </Link>
+            <Link
+              href="/Conocenos"
+              className={router.pathname === "/Conocenos" ? "font-bold" : ""}
+            >
+              Conocenos
+            </Link>
+            <Link
+              href="/Servicios"
+              className={router.pathname === "/Servicios" ? "font-bold" : ""}
+            >
+              Servicios
+            </Link>
+            <Link
+              href="/Certificaciones"
+              className={
+                router.pathname === "/Certificaciones" ? "font-bold" : ""
+              }
+            >
+              Certificaciones
+            </Link>
+            <Link
+              href="/Contacto"
+              className={router.pathname === "/Contacto" ? "font-bold" : ""}
+            >
+              Contáctanos
+            </Link>
         </div>
 
         {/* Menú móvil */}

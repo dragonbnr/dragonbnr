@@ -16,10 +16,10 @@ function Quienes() {
       </div>
       <div className="w-full flex flex-col md:flex-row justify-end items-center z-10 ">
       <div className='w-full flex flex-col items-center md:items-start z-10 '>
-      <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10">
+      <h1 className="text-[25px] lg:text-[45px] xl:text-[64px] font-semibold text-white leading-7 mb-[11px] lg:mb-[20px] z-10">
       ¿Quiénes somos? <br /> 
       </h1>
-      <p className="w-[87%] text-justify text-white text-[10px] font-normal leading-3 mb-4 z-10">
+      <p className="w-[87%] text-justify text-white text-[10px] lg:text-2xl font-normal leading-3 mb-4 z-10">
       Somos una empresa mexicana de seguridad privada, nuestra prioridad es la protección de nuestros clientes, la transparencia y ética, ofreciendo servicios de seguridad con soluciones integrales, basándonos en las necesidades específicas de cada cliente.  Contamos con personal altamente capacitado, acompañado de innovación y tecnología que permita desarrollar nuestro trabajo de forma eficiente, adaptándonos a los cambios constantes en el mercado de la seguridad, comprometidos en proteger tu familia, empresa, o bienes.
 
       </p>
