@@ -15,43 +15,48 @@ function MisionVision() {
         />
       </div>
       
-      <div className='z-10'>
-      <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
+      <div className="w-full flex flex-col md:flex-row justify-center items-center md:px-12 md:gap-8">
+      <div className='w-full flex flex-col items-center justify-center md:w-1/2 z-10  '>
+      <div className="w-[87%] h-auto md:h-[360px] md:w-[350px] mt-[20px] mb-4 z-10">
         <Image
           src="/images/conocenos/mision/mision.png"
           width={1500}
           height={1500}
           quality={100}
           alt="Guardias"
-          className="object-cover "
+          className="object-cover w-full h-full "
         />
       </div>
 
-      <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10">
+      <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10 md:text-left">
       Misión <br /> 
       </h1>
-      <p className="w-[87%] text-justify text-white text-[10px] font-normal leading-3 mb-4 z-10">
+      <p className="w-[87%] md:w-full text-justify text-white text-[10px] font-normal leading-3 mb-4 z-10">
       Ofrecer nuestros servicios de seguridad privada para proteger de forma eficaz, tu familia, bienes, o activos, contando con elementos capacitados para realizar las tareas de manera profesional, brindándote seguridad, y confianza, llevando a cabo transparencia, entre la empresa y el cliente, acompañado de tecnologías que se adaptan a los cambios volátiles de hoy en día. 
 
       </p>
       </div>
-      <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
+      <div className='flex flex-col justify-center items-center w-full md:w-1/2  z-10'>
+
+      <div className="w-[87%] h-auto md:h-[360px] md:w-[350px] mt-[20px] mb-4 z-10">
         <Image
           src="/images/conocenos/mision/vision.png"
           width={1500}
           height={1500}
           alt="Guardias"
           quality={100}
-          className="object-cover "
-        />
+          className="object-cover w-full h-full  "
+          />
       </div>
-      <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10">
+      <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10 md:text-left">
       Visión <br /> 
       </h1>
-      <p className="w-[87%] text-justify text-white text-[10px] font-normal leading-3 mb-4 z-10">
+      <p className="w-[87%] md:w-full text-justify text-white text-[10px] font-normal leading-3 mb-4 z-10">
       Tener mayor presencia en el territorio nacional, mejorando continuamente nuestros servicios, y nuestros elementos con constante capacitación, para desarrollar las habilidades necesarias que permitan satisfacer las necesidades de nuestros clientes, siendo como prioridad la seguridad, transparencia, honradez y profesionalismo, al igual que contar con un abanico amplio de servicios profesionales para nuestros clientes.
 
       </p>
+          </div>
+          </div>
       
     
     </div>

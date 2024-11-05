@@ -44,7 +44,9 @@ function Quienes() {
         alt="Background"
         />
       </div>
-      <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
+      <div className='w-full flex flex-col md:flex-row items-center justify-center md:gap-8 z-10 md:px-12'>
+
+      <div className="w-[87%] md:w-1/2 h-auto mt-[20px] mb-4 z-10">
         <Image
           src="/images/conocenos/valores/guardias.png"
           width={1500}
@@ -52,12 +54,14 @@ function Quienes() {
           quality={100}
           alt="Guardias"
           className="object-cover "
-        />
+          />
       </div>
+      <div className='md:w-1/2 flex-col md:text-left md:items-center md:justify-center  '>
+
       <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10">
       Nuestros <span className="text-[#ca1b2e]">valores</span>
       </h1>
-      <ul className="text-white z-10">
+      <ul className="text-white z-10 list-disc list-inside">
       <li>Lealtad</li>
       <li>Honradez</li>
       <li>Responsabilidad</li>
@@ -68,7 +72,9 @@ function Quienes() {
       <li>Trabajo en equipo</li>
       <li>Servicio y protección</li>
       </ul>
-      <div className="w-full grid grid-cols-2 place-items-center mt-4 space-y-2 ">
+      </div>
+          </div>
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center mt-4 space-y-2 md:px-12">
         {
             valores.map((valor, index) => (
                 <Valor key={index} icono={valor.icono} texto={valor.texto}/>
