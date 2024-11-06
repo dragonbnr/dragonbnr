@@ -21,7 +21,7 @@ function Navbar() {
         </div>
 
         {/* Ícono del menú en versión móvil */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <FaBars
             className="text-xl cursor-pointer"
             onClick={toggleMenu}
@@ -30,7 +30,7 @@ function Navbar() {
         </div>
 
         {/* Enlaces del centro para versión de escritorio */}
-        <div className="hidden md:flex gap-x-6 font-anton uppercase absolute left-1/2 transform -translate-x-1/2 text-white">
+        <div className="hidden lg:flex gap-x-6 font-anton uppercase absolute left-1/2 transform -translate-x-1/2 text-white">
         <Link
               href="/"
               className={router.pathname === "/" ? "font-bold" : ""}
