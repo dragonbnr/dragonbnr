@@ -43,12 +43,12 @@ function Redes() {
               />
             </div>
             <a href="mailto:dragonblackandredsegprivada@hotmail.com" className="text-white my-4 lg:text-[33px] ">dragonblackandredsegprivada@hotmail.com</a>
-            <h2 className="leading-6 lg:leading-[50px] mb-4">
+            <h2 className="leading-6 lg:leading-[50px] mb-4 md:px-12">
             <span className="text-white text-[24px] lg:text-[75px]">Contamos con</span><br/>
             <span className="text-white text-[24.83px] lg:text-[74px]
 font-bold">servicios de seguridad</span><br/>
             <span className="text-[#ca1b2e]
-text-[33.28px] lg:text-[100px]
+text-[33.28px] md:text-[90px] xl:text-[100px]
 font-bold">altamente capacitado</span>
             </h2>
             <RedButton texto="Contáctanos" url="/Contacto" />

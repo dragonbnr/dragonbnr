@@ -18,7 +18,7 @@ function Permisos() {
       <h1 className="w-[80%] text-[25px] font-semibold  leading-7 mb-[11px] z-10 text-black">
       Operamos con respaldo legal y certificaciones, garantizando un servicio seguro y confiable. <br /> 
       </h1>
-      <p className="w-[87%] text-justify  text-[10px] font-normal leading-3 mb-4 z-10 text-black">
+      <p className="w-[87%] md:w-full text-justify  text-[10px] md:text-[18px] font-normal leading-3 md:leading-[24px] mb-4 z-10 text-black md:px-12">
       Proveemos sistemas de videovigilancia de alta resolución, conectados a un sistema central para monitoreo y grabación en tiempo real, ideales para cubrir puntos vulnerables. Ofrecemos instalación profesional con garantía extendida, realizada por técnicos certificados que, tras un análisis previo, colocan los equipos en ubicaciones estratégicas. Además, contamos con monitoreo de alarmas, control de acceso vehicular y peatonal, cercas electrificadas, video porteros y sensores de movimiento, permitiendo un control remoto 24/7 desde cualquier lugar del mundo.
 
       </p>
@@ -27,21 +27,21 @@ function Permisos() {
     Permisos
     </h2>
 
-      <div className="w-[87%] h-auto mt-[20px] mb-4 z-10">
+      <div className="w-[87%] md:w-full  h-auto mt-[20px] mb-4 z-10 md:px-12 ">
         <Image
         quality={100}
           src="/images/certificaciones/permisos/permiso.jpg"
           width={1500}
           height={1500}
           alt="Guardias"
-          className="object-cover "
+          className="object-cover w-full h-full"
         />
       </div>
 
-      <h3 className="text-[25px] text-[#ca1b2e] font-semibold  leading-7 mb-[11px] mt-4 z-10">
+      <h3 className="text-[25px] text-[#ca1b2e] font-semibold  leading-7 mb-[11px] md:mb-[30px] mt-4 z-10">
       Instituciones que nos avalan
     </h3>
-    <div className="grid grid-cols-3 gap-4 z-10">
+    <div className="grid grid-cols-3 gap-4 z-10 md:px-12">
   <div className="flex justify-center items-center">
     <Image
     quality={100}
@@ -49,7 +49,7 @@ function Permisos() {
       width={100}
       height={100}
       alt="IMSS"
-      className="object-contain"
+      className="object-contain w-full h-full max-h-[80px]"
     />
   </div>
   <div className="flex justify-center items-center">
@@ -59,7 +59,7 @@ function Permisos() {
       width={100}
       height={100}
       alt="Trabajo"
-      className="object-contain"
+      className="object-contain w-full h-full max-h-[80px]"
     />
   </div>
   <div className="flex justify-center items-center">
@@ -69,7 +69,7 @@ function Permisos() {
       width={100}
       height={100}
       alt="Infonavit"
-      className="object-contain"
+      className="object-contain w-full h-full max-h-[80px]"
     />
   </div>
   <div className="flex justify-center items-center">
@@ -79,7 +79,7 @@ function Permisos() {
       width={100}
       height={100}
       alt="SCHP"
-      className="object-contain"
+      className="object-contain w-full h-full max-h-[80px]"
     />
   </div>
   <div className="flex justify-center items-center">
@@ -89,7 +89,7 @@ function Permisos() {
       width={100}
       height={100}
       alt="Seguridad"
-      className="object-contain"
+      className="object-contain w-full h-full max-h-[80px]"
     />
   </div>
   <div className="flex justify-center items-center">
@@ -99,7 +99,7 @@ function Permisos() {
       width={100}
       height={100}
       alt="SAT"
-      className="object-contain"
+      className="object-contain w-full h-full max-h-[80px]"
     />
   </div>
 </div>

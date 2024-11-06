@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-function Hero() {
+function Hero() { 
   return (
     <div className="h-[452px] w-full flex justify-center items-center relative">
          <div className='w-full h-full absolute z-0 '>

@@ -13,7 +13,7 @@ function Hero() {
         quality={100}
         />
       </div>
-      <h1 className="text-white text-[40.51px] font-semibold z-10 text-center leading-8">
+      <h1 className="text-white text-[40.51px] md:text-[60px] lg:text-[100px] font-semibold z-10 text-center leading-8 md:leading-[60px] lg:leading-[100px] ">
         Certificaciones y <br/>
     <span className="text-[#ca1b2e]">permisos</span>
         </h1>
