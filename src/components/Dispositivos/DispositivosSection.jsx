@@ -15,8 +15,8 @@ function DispositivosSection() {
         alt="Background"
         />
       </div>
-      <div className="w-full h-auto mt-[20px] mb-4 z-10 flex justify-center gap-2 px-4">
-        <div className="w-[200px] h-[205px]">
+      <div className="w-full h-auto mt-[20px] mb-4 md:mb-8 z-10 flex justify-center gap-2 md:gap-8 px-4 md:px-12 lg:px-20">
+      <div className="w-[200px] h-[205px] md:w-1/2 md:h-full">
         <Image
           src="/images/dispositivos/camara.png"
           width={1500}
@@ -26,7 +26,7 @@ function DispositivosSection() {
           className="object-cover w-full "
         />
         </div>
-        <div className="w-[200px] h-[205px]">
+        <div className="w-[200px] h-[205px] md:w-1/2 md:h-full">
         <Image
           src="/images/dispositivos/camara2.png"
           width={1500}
@@ -37,12 +37,12 @@ function DispositivosSection() {
         />
         </div>
       </div>
-      <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10">
+      <h1 className="text-[25px] md:text-[35px] font-semibold text-white leading-7 mb-[11px] z-10">
       Instalación y comercialización
       de dispositivos electrónicos
       </h1>
-      <p className=" text-center text-white text-xs font-bold leading-3 z-10">Instalación profesional de cámaras de seguridad</p>
-      <p className="w-[345px] h-8 text-justify text-white text-[10px] font-normal font-['Inter'] leading-3 z-10 mt-2">Te ofrecemos la implementación de proyectos de seguridad y videovigilancia en entornos industriales, oficinas y residenciales.</p>
+      <p className=" text-center text-white text-xs md:text-[25px] font-bold leading-3 z-10">Instalación profesional de cámaras de seguridad</p>
+      <p className="w-[345px] md:w-[650px] h-8 text-justify text-white text-[10px] md:text-[20px]  leading-3 md:leading-[24px] z-10 mt-2">Te ofrecemos la implementación de proyectos de seguridad y videovigilancia en entornos industriales, oficinas y residenciales.</p>
       <h2 className="text-center text-white text-xs font-bold font-['Inter'] leading-3 z-10 mt-8 mb-4">CCTV</h2>
       <p className="w-[87%] text-justify text-white text-[10px] font-normal leading-3 mb-4 z-10">
       Proveemos sistemas de videovigilancia de alta resolución, conectados a un sistema central para monitoreo y grabación en tiempo real, ideales para cubrir puntos vulnerables. Ofrecemos instalación profesional con garantía extendida, realizada por técnicos certificados que, tras un análisis previo, colocan los equipos en ubicaciones estratégicas. Además, contamos con monitoreo de alarmas, control de acceso vehicular y peatonal, cercas electrificadas, video porteros y sensores de movimiento, permitiendo un control remoto 24/7 desde cualquier lugar del mundo.
