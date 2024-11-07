@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Testimonial({testimonio}) {
   return (
-    <div className="w-[232px] lg:w-[568px] h-[99px] lg:h-[244px] flex justify-center items-center  bg-[#282828] gap-3 pl-4 rounded-[16px]">
+    <div className="w-[232px]  lg:w-[568px] h-[99px] lg:h-[244px] flex justify-center items-center  bg-[#282828] gap-3 pl-4 rounded-[16px]">
   
     <div className="w-[48.61px] h-[48.61px] justify-center items-center inline-flex">
         <Image width={"119"} height={'119'} quality={100}className="w-full h-full relative rounded-[20.23px] object-contain" src={testimonio?.image}

@@ -48,7 +48,7 @@ function Redes() {
             <span className="text-white text-[24.83px] lg:text-[74px]
 font-bold">servicios de seguridad</span><br/>
             <span className="text-[#ca1b2e]
-text-[33.28px] md:text-[90px] xl:text-[100px]
+text-[33.28px]  lg:text-[90px] xl:text-[100px]
 font-bold">altamente capacitado</span>
             </h2>
             <RedButton texto="Contáctanos" url="/Contacto" />
