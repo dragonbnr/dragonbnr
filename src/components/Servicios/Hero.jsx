@@ -11,9 +11,9 @@ function Hero() {
         objectFit='cover'
         objectPosition='center'
         alt="Background"
-        />
+        /> 
       </div>
-      <h1 className="text-white text-[40.51px] md:text-[60px] lg:text-[120px] font-semibold z-10 text-center leading-8 md:leading-[60px] lg:leading-[100px] ">
+      <h1 className="text-white text-[40.51px] md:text-[50px] font-semibold z-10 text-center leading-8 md:leading-[50px]  ">
         Nuestros <br/>
     <span className="text-[#ca1b2e]">servicios</span>
         </h1>

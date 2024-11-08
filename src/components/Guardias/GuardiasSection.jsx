@@ -53,7 +53,7 @@ function GuardiasSection() {
         C.U.I.P (Cedula Única de Identificación Policial).
       </p>
       <div className="w-[87%] md:w-full md:px-12 lg:px-20 flex flex-col md:flex-row md:gap-8 h-auto mt-[20px] mb-4 z-10">
-        <div className="w-full h-[212px] md:h-full lg:h-[550px] bg-white rounded-lg border-l-4 border-[#ca1b2e] flex flex-col items-center md:items-start justify-center lg:justify-start md:py-8 lg:py-10 md:px-4">
+        <div className="w-full h-[212px] md:h-[550px] bg-white rounded-lg border-l-4 border-[#ca1b2e] flex flex-col items-center md:items-start justify-center lg:justify-start md:py-8 lg:py-10 md:px-4">
           <h3 className="max-w-[220.70px] w-full  md:max-w-full text-center md:text-left text-black text-[22px] md:text-[30px] lg:text-[35px]  font-bold leading-6 md:leading-[34px] mb-4  ">
             ¿Qué ofrece nuestro servicio?
           </h3>
@@ -66,7 +66,7 @@ function GuardiasSection() {
           </ul>
         </div>
 
-        <div className="w-full  h-[299px] md:h-full lg:h-[550px] bg-white rounded-lg border-l-4 border-[#ca1b2e]  flex flex-col items-center md:items-start justify-center md:py-8 md:px-4 mt-8 md:mt-0">
+        <div className="w-full  h-[299px] md:h-[550px] bg-white rounded-lg border-l-4 border-[#ca1b2e]  flex flex-col items-center md:items-start justify-center md:py-8 md:px-4 mt-8 md:mt-0">
           <h3 className="max-w-[220.70px] w-full md:max-w-full text-center md:text-left  text-black text-[22px] md:text-[30px] lg:text-[35px] font-bold leading-6 md:leading-[34px] mb-4  ">
             Dirigido para todo tipo de instalaciones:
           </h3>
