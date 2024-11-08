@@ -141,7 +141,7 @@ const Footer = () => {
         </p>
       </div>
     </footer>
-    <footer className="bg-black text-white py-8 px-4 md:px-12 text-center md:text-left hidden lg:block">
+    <footer className="bg-black text-white py-8 px-4 text-center md:text-left hidden lg:block">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         
         {/* Logo y Contacto */}
@@ -218,7 +218,7 @@ const Footer = () => {
         </div>
       </div>
        {/* Aviso de Privacidad y Redes Sociales */}
-       <div className="flex justify-between items-center border-t-2 mt-4 border-white/20 px-8">
+       <div className="flex justify-between items-center border-t-2 mt-4 border-white/20 ">
         <div className="flex items-center mt-4 gap-4 ">
           <span className="text-md">
             Dragon Black & Red S.A. de C.V.
@@ -244,7 +244,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-        <p className="text-xs mt-4 px-8">
+        <p className="text-xs mt-4 ">
             Sitio desarrollado por{" "}
             <a href="https://jaizmora.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
               Jaizmora Digital Media

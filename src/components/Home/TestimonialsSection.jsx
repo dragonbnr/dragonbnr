@@ -8,7 +8,23 @@ const TestimonialsSection = () => {
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
   const containerRef = useRef(null);
+  const [scrollAmount, setScrollAmount] = useState(240);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) {
+        setScrollAmount(580);
+      } else {
+        setScrollAmount(260);
+      }
+    };
+    handleResize(); // Set initial value
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const testimonios = [
     {
@@ -66,19 +82,20 @@ const TestimonialsSection = () => {
     };
   }, []);
 
-  // Scroll to the left
-  const scrollLeft = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollBy({ left: -240, behavior: 'smooth' });
-    }
-  };
+ // Scroll to the left
+ const scrollLeft = () => {
+  if (containerRef.current) {
+    containerRef.current.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+  }
+};
 
-  // Scroll to the right
-  const scrollRight = () => {
-    if (containerRef.current) {
-      containerRef.current.scrollBy({ left: 240, behavior: 'smooth' });
-    }
-  };
+// Scroll to the right
+const scrollRight = () => {
+  if (containerRef.current) {
+    containerRef.current.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  }
+};
+
   return (
     <div className="w-full h-auto flex flex-col relative justify-center items-center py-[37px] bg-black">
        {showLeftButton && (
@@ -114,7 +131,7 @@ const TestimonialsSection = () => {
       <h1 className="mb-4 text-[26px] lg:text-[48px] text-center text-white">
         Opiniones de <span className="text-[#ca1b2e] ">nuestros clientes</span>
       </h1>
-      <div className="w-full flex  lg:justify-center gap-4 overflow-x-auto relative   no-scrollbar pl-4 "
+      <div className="w-full flex   gap-4 overflow-x-auto relative   no-scrollbar pl-4 "
       ref={containerRef}
       >
      
