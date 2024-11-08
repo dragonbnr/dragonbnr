@@ -5,7 +5,8 @@ import Image from "next/image";
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className="bg-black overflow-hidden max-w-[1440px] min-w-sm mx-auto">
+    <div className="bg-black overflow-hidden ">
+      <div className="max-w-[1440px] min-w-sm mx-auto">
       <Navbar />
       <Component {...pageProps} />
       <Footer/>
@@ -18,6 +19,7 @@ export default function App({ Component, pageProps }) {
           
           style={{width: '48px', height: '48px'}}/>
         </a>
+        </div>
     </div>
   );
 }

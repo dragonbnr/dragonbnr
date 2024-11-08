@@ -154,19 +154,23 @@ const Footer = () => {
           />
          
           <address className="text-sm not-italic">
-            Soria 14 - Segundo Piso. Oficina 302 B,<br />
-            Colonia Álamos, Benito Juárez, 03400, CDMX.
+            Soria 14 - Segundo Piso. <br/> Oficina 302 B,
+            Colonia Álamos, <br/>  Benito Juárez, 03400, CDMX.
           </address>
           <p className="text-red-500">Contáctanos</p>
           <a href="mailto:dragonblackandredsegprivada@hotmail.com" className="block text-sm">
             dragonblackandredsegprivada@hotmail.com
           </a>
-          <p className="text-sm">
-            Teléfonos oficina:<br />
-            55 9372 2345 / 55 9372 3664<br />
-            55 9429 0611 / 55 9429 0624
-          </p>
-          <p className="text-sm">WhatsApp: 55 2726 3187</p>
+         <p className="text-sm">
+    Teléfonos oficina:<br />
+    <a href="tel:+525593722345" className="text-sm">55 9372 2345</a> / <a href="tel:+525593723664" className="text-sm">55 9372 3664</a><br />
+    <a href="tel:+525594290611" className="text-sm">55 9429 0611</a> / <a href="tel:+525594290624" className="text-sm">55 9429 0624</a>
+  </p>
+  <p>
+    <a href="https://wa.me/525527263187" target="_blank" rel="noopener noreferrer">
+      WhatsApp: 55 2726 3187
+    </a>
+  </p>
           <p className="text-sm">Horario de atención: <br/> Lunes a Viernes de 9:00 a 18:00 hrs.</p>
         </div>
 
@@ -212,22 +216,22 @@ const Footer = () => {
           </Link>
           </ul>
         </div>
-
-        {/* Aviso de Privacidad y Redes Sociales */}
-        <div className="flex flex-col justify-between">
-          <p className="text-xs">
-            Dragon Black & Red S.A. de C.V. - México, 2024
-          </p>
-          <a href="#aviso-de-privacidad" className="text-xs hover:underline">
+      </div>
+       {/* Aviso de Privacidad y Redes Sociales */}
+       <div className="flex justify-between items-center border-t-2 mt-4 border-white/20 px-8">
+        <div className="flex items-center mt-4 gap-4 ">
+          <span className="text-md">
+            Dragon Black & Red S.A. de C.V.
+          </span>
+          <span>
+            México, {new Date().getFullYear()}
+            </span>
+          <a href="#aviso-de-privacidad" className="text-md hover:underline">
             Aviso de Privacidad
           </a>
-          <p className="text-xs mt-4">
-            Sitio desarrollado por{" "}
-            <a href="https://jazimoradigital.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
-              Jazimora Digital Media
-            </a>
-          </p>
-          <div className="flex space-x-4 mt-6 justify-center md:justify-start">
+          </div>
+         
+          <div className="flex space-x-4  justify-center md:justify-start items-center">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
               <FaFacebookF className="text-xl hover:text-gray-400" />
             </a>
@@ -239,7 +243,14 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
+        <div>
+        <p className="text-xs mt-4 px-8">
+            Sitio desarrollado por{" "}
+            <a href="https://jaizmora.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              Jaizmora Digital Media
+            </a>
+          </p>
+          </div>
     </footer>
     </>
   );
