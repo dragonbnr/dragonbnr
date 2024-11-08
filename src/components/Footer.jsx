@@ -76,7 +76,7 @@ const Footer = () => {
           dragonblackandredsegprivada@hotmail.com
         </a>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col mb-4">
           <p className="text-sm mb-2">Teléfonos oficina:</p>
           <a href="tel:5593722345">55 9372 2345</a>
           <a href="tel:5593723664">55 9372 3664</a>
@@ -90,11 +90,11 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          WhatsApp: 55 2726 3187
+          WhatsApp: <br/> 55 2726 3187
         </a>
 
-        <p className="text-sm mb-8">
-          Horario de atención: Lunes a Viernes de 9:00 a 18:00 hrs.
+        <p className="text-sm my-4">
+          Horario de atención:<br/> Lunes a Viernes de 9:00 a 18:00 hrs.
         </p>
 
         <div className="flex justify-center space-x-4 mb-6">
@@ -121,14 +121,14 @@ const Footer = () => {
           </a>
         </div>
 
-        <p className="text-xs mb-2">
-          Dragon Black & Red S.A. de C.V. - México, 2024
+        <p className="text-xs mb-2 pt-4 border-t-2 border-white/20">
+          Dragon Black & Red S.A. de C.V. - México, {new Date().getFullYear()}
         </p>
         <a href="#aviso" className="text-xs hover:underline">
           Aviso de Privacidad
         </a>
 
-        <p className="text-xs mt-4">
+        <p className="text-xs mt-2">
           Sitio desarrollado por{" "}
           <a
             href="https://jaizmora.com"

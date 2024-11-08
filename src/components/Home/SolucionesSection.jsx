@@ -16,11 +16,11 @@ const SolucionesSection = () => {
         />
       </div>
       <div className="flex flex-col justify-center items-center z-10">
-        <h1 className="text-[26px] md:text-[50px] lg:text-[75px] text-center text-white md:leading-[50px] lg:leading-[70px]">
+        <h1 className="  text-[26px] md:text-[50px] lg:text-[75px] text-center text-white md:leading-[50px] lg:leading-[70px] lg:max-w-[900px]">
   
-        <span className="text-[#ca1b2e] font-bold ">Soluciones</span> adaptadas a tus necesidades
+        <span className="text-[#ca1b2e] font-bold  ">Soluciones</span> adaptadas a tus necesidades
         </h1>
-        <p className="w-[70%] lg:w-[80%] text-center text-white text-xl lg:text-[40px] font-bold  leading-snug mb-8 mt-4 md:mt-8">Explora nuestros servicios diseñados para <br/>reforzar tu protección hoy mismo.</p>
+        <p className="w-[70%] lg:w-[95%] text-center text-white text-xl lg:text-[40px] font-bold  leading-snug mb-8 mt-4 md:mt-8">Explora nuestros servicios diseñados para <br/>reforzar tu protección hoy mismo.</p>
         </div>
         <BlackButton texto={"Ver servicios"} url={"/Servicios"} />
       </div>
