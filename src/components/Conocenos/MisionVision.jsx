@@ -32,7 +32,7 @@ function MisionVision() {
           <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10 md:text-left">
             Misión <br />
           </h1>
-          <p className="w-[87%] md:w-full text-justify text-white text-[10px] lg:text-[24px] font-normal leading-3 lg:leading-[32px] mb-4 z-10 ">
+          <p className="w-[87%] md:w-full text-justify text-white text-[10px] lg:text-[24px] font-normal leading-3 lg:leading-[32px] mb-4 z-10  lg:h-[300px]">
             Ofrecer nuestros servicios de seguridad privada para proteger de
             forma eficaz, tu familia, bienes, o activos, contando con elementos
             capacitados para realizar las tareas de manera profesional,
@@ -55,7 +55,7 @@ function MisionVision() {
           <h1 className="text-[25px] font-semibold text-white leading-7 mb-[11px] z-10 md:text-left">
             Visión <br />
           </h1>
-          <p className="w-[87%] md:w-full text-justify text-white text-[10px] lg:text-[24px] font-normal leading-3 lg:leading-[32px] mb-4 z-10 lg:h-[260px]">
+          <p className="w-[87%] md:w-full text-justify text-white text-[10px] lg:text-[24px] font-normal leading-3 lg:leading-[32px] mb-4 z-10 lg:h-[300px]">
             Tener mayor presencia en el territorio nacional, mejorando
             continuamente nuestros servicios, y nuestros elementos con constante
             capacitación, para desarrollar las habilidades necesarias que

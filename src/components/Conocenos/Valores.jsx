@@ -15,7 +15,7 @@ function Quienes() {
             texto: 'Capacitación constante para nuestros guardias de seguridad y equipo administrativo.'
         },
         {
-            icono: '/images/conocenos/valores/valores/3.svg',
+            icono: '/images/conocenos/valores/valores/7.svg',
             texto: 'Creamos metodologías para mejorar el servicio de seguridad.'
         },
         {
@@ -58,7 +58,7 @@ function Quienes() {
       </div>
       <div className='md:w-1/2 flex-col md:text-left md:items-center md:justify-center  '>
 
-      <h1 className="text-[25px] lg:text-[64px] font-semibold text-white leading-7 mb-[11px] lg:mb-[60px] z-10">
+      <h1 className="text-[25px] lg:text-[64px] font-semibold text-white leading-7 md:leading-[64px] mb-[11px]  z-10">
       Nuestros <span className="text-[#ca1b2e]">valores</span>
       </h1>
       <ul className="text-white z-10 list-disc list-inside lg:text-[24px]">
@@ -74,7 +74,7 @@ function Quienes() {
       </ul>
       </div>
           </div>
-      <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center mt-4 space-y-2 lg:space-y-4 md:px-12">
+      <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center  mt-4 space-y-2 lg:space-y-4 md:px-4 ">
         {
             valores.map((valor, index) => (
                 <Valor key={index} icono={valor.icono} texto={valor.texto}/>
