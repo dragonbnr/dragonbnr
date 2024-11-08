@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
           style={{position: 'fixed', bottom: '25px', right: '25px', padding: '10px', backgroundColor: '#25D366', color: 'white', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '80px', height: '80px', textDecoration: 'none'}}
           >
           <Image
-          src="/images/iconos/whastapp.svg" alt="WhatsApp" width={100} height={100}
+          src="/images/iconos/whatsapp.svg" alt="WhatsApp" width={100} height={100}
           
           style={{width: '48px', height: '48px'}}/>
         </a>

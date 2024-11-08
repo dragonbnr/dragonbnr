@@ -16,7 +16,7 @@ function Quienes() {
       </div>
       <div className="w-full flex flex-col md:flex-row justify-end items-center z-10 ">
       <div className='w-full flex flex-col items-center md:items-start z-10 '>
-      <h1 className="text-[25px] md:text-[28px] lg:text-[45px] xl:text-[64px] font-semibold text-white leading-7 mb-[11px] md:mb-[15px] lg:mb-[20px] z-10">
+      <h1 className="text-[25px] md:text-[28px] lg:text-[45px] xl:text-[64px] font-semibold text-white leading-7 mb-[11px] md:mb-[15px] lg:mb-[20px] xl:mb-[50px] z-10">
       ¿Quiénes somos? <br /> 
       </h1>
       <p className="w-[87%] text-justify text-white text-[10px] md:text-[14px] lg:text-2xl font-normal leading-3 md:leading-[20px] lg:leading-[25px] mb-4 z-10">

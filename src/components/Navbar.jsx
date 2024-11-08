@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="w-full h-[78px] flex justify-between items-center px-4 md:px-10 relative max-w-[1440px] min-w-sm mx-auto bg-black">
+      <div className="w-full h-[78px] flex justify-between items-center px-8  md:px-10 relative max-w-[1440px] min-w-sm mx-auto bg-black">
         {/* Logo */}
         <div className="relative z-10 w-[34px] h-[48.86px]">
           <Image src="/images/logo.png" quality={100} width={150} height={150} alt="Logo" className="w-[34px] h-[48.86px] object-cover  " />

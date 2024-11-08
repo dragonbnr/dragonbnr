@@ -41,7 +41,7 @@ function Permisos() {
       <h3 className="text-[25px] text-[#ca1b2e] font-semibold  leading-7 mb-[11px] md:mb-[30px] mt-4 z-10">
       Instituciones que nos avalan
     </h3>
-    <div className="grid grid-cols-3 gap-4 z-10 md:px-12">
+    <div className="grid grid-cols-3 gap-4 z-10 px-12">
   <div className="flex justify-center items-center">
     <Image
     quality={100}

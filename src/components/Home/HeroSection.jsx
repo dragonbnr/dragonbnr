@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-[400px] md:h-[630px] lg:h-[90vh] lg:max-h-[650px] xl:max-h-[850px] bg-black overflow-hidden"
+    <div className="relative w-full h-[400px] md:h-[630px] lg:h-[90vh] lg:max-h-[650px] xl:h-[720px] xl:max-h-[850px] bg-black overflow-hidden"
     >
       <div className='w-full h-full absolute z-0 '>
         <Image src={"/images/home/hero/bg.png"}
@@ -19,11 +19,11 @@ const HeroSection = () => {
       <div className="w-[176.20px] h-[19.90px] relative flex-col justify-start items-start inline-flex" >
         <Image src="/images/logoletra.svg" quality={100} width={156} height={161} alt="Logo" className='w-full  h-full object-cover' />
         </div>
-        <h1 className="text-[40px] lg:text-[90px] xl:text-[120px] font-bold mb-6 leading-10 lg:leading-[90px]  xl:leading-[120px] mt-[18px] z-10">Seguridad privada <br/> al límite</h1>
+        <h1 className="text-[35px] lg:text-[90px] xl:text-[120px] font-bold mb-6 leading-10 lg:leading-[90px]  xl:leading-[120px] mt-[18px] z-10">Seguridad privada <br/> al límite</h1>
       </div>
 
-      <div className='absolute  left-0 right-0 mx-auto bottom-0 z-20 '>
-        <div className='w-full h-full md:h-[500px] lg:h-[500px] xl:h-[400px] 2xl:h-[650px] '>
+      <div className='absolute  left-0 right-0 mx-auto bottom-0  '>
+        <div className='w-full h-[250px] md:h-[500px] lg:h-[450px] xl:h-[450px] 2xl:h-[650px] '>
       <Image src={"/images/home/hero/guardias.png"}
         width={1500}
         height={1500}

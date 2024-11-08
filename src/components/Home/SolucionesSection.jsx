@@ -20,7 +20,7 @@ const SolucionesSection = () => {
   
         <span className="text-[#ca1b2e] font-bold ">Soluciones</span> adaptadas a tus necesidades
         </h1>
-        <p className="w-[70%] lg:w-[80%] text-center text-white text-xl lg:text-[40px] font-bold  leading-snug mb-8 md:mt-8">Explora nuestros servicios diseñados para <br/>reforzar tu protección hoy mismo.</p>
+        <p className="w-[70%] lg:w-[80%] text-center text-white text-xl lg:text-[40px] font-bold  leading-snug mb-8 mt-4 md:mt-8">Explora nuestros servicios diseñados para <br/>reforzar tu protección hoy mismo.</p>
         </div>
         <BlackButton texto={"Ver servicios"} url={"/Servicios"} />
       </div>
