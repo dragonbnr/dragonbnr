@@ -39,21 +39,21 @@ const TestimonialsSection = () => {
       nombre: "Ana Pérez",
       puesto: "Gerente de Operaciones en Grupo Alfa",
       description: "Instalaron el sistema de cámaras en mi negocio de forma rápida y profesional. Ahora puedo monitorear todo en tiempo real y eso me da una gran tranquilidad.",
-      image: "/images/home/testimonios/1.png"
+      image: "/images/home/testimonios/2.png"
     },
     {
       id: 3,
       nombre: "Carlos Méndez",
       puesto: "Director de Seguridad en Industrias Sol",
       description: "a respuesta de los guardias ante cualquier situación es impresionante. Están siempre atentos y preparados, lo que hace que me sienta seguro al dejar mi negocio en sus manos.",
-      image: "/images/home/testimonios/1.png"
+      image: "/images/home/testimonios/3.png"
     },
     {
       id: 4,
       nombre: "Luis Rodríguez",
       puesto: "Propietario de Bodegas",
       description: "Me gusta que son muy serios y cumplen con todo lo que prometen. La seguridad de nuestras instalaciones ha mejorado muchísimo gracias a su equipo.",
-      image: "/images/home/testimonios/1.png"
+      image: "/images/home/testimonios/4.png"
     },
   ]
 
