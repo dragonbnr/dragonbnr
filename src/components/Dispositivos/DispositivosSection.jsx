@@ -63,7 +63,7 @@ function DispositivosSection() {
         mundo.
       </p>
 
-      <div className="w-full flex flex-col md:flex-row md:justify-center md:gap-4 md:px-12">
+      <div className="w-full flex flex-col md:flex-row justify-center items-center md:gap-4 md:px-12">
       <div className="w-[87%] h-auto  mt-[20px] mb-4 z-10">
         <div className="w-full h-[212px] md:h-[600px] bg-white rounded-lg border-l-4 border-[#ca1b2e] flex flex-col items-center justify-center">
           <h3 className="max-w-[220.70px] w-full text-center text-black text-[22px] md:text-[30px] font-bold leading-6 mb-4  ">
