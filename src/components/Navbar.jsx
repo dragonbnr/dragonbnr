@@ -133,21 +133,28 @@ function Navbar() {
 
             {/* Íconos de redes sociales */}
             <div className="flex justify-center space-x-6 mt-8">
+              <Link href={"https://www.facebook.com/profile.php?id=61562424445331"} target="_blank">
               <Image
+              alt="Facebook"
               quality={100}
                 src={"/images/iconos/fb.png"}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer"
               />
+              </Link>
+              <Link href={"https://www.instagram.com/dragonblackandredsegprivada/?hl=es"} target="_blank">
               <Image
+              alt="Instagram"
               quality={100}
                 src={"/images/iconos/instagram.png"}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer"
               />
+              </Link>
               <Image
+              alt="Linkein"
               quality={100}
                 src={"/images/iconos/linkedin.png"}
                 width={"34"}

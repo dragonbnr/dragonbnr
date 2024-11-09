@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import RedButton from '../Buttons/RedButton'
+import Link from 'next/link'
 
 function Redes() {
   return (
@@ -20,20 +21,26 @@ function Redes() {
             <span className="text-[#ca1b2e] font-bold">redes sociales</span>
             </h1>
             <div className="flex justify-center space-x-10 mt-8 lg:mt-4">
+            <Link href={"https://www.facebook.com/profile.php?id=61562424445331"} target="_blank">
               <Image
+              alt="Facebook"
                 src={"/images/iconos/fb.png"}
                 quality={100}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer lg:w-[56px] "
               />
+              </Link>
+              <Link href={"https://www.instagram.com/dragonblackandredsegprivada/?hl=es"} target="_blank">
               <Image
+              alt="Instagram"
                 src={"/images/iconos/instagram.png"}
                 quality={100}
                 width={"34"}
                 height={"34"}
                 className="cursor-pointer lg:w-[56px] "
               />
+              </Link>
               <Image
                 src={"/images/iconos/linkedin.png"}
                 quality={100}
