@@ -142,7 +142,7 @@ const Footer = () => {
       </div>
     </footer>
     <footer className="bg-black text-white py-8 px-4 text-center md:text-left hidden lg:block">
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-screen-xl  grid grid-cols-1 md:grid-cols-3 gap-8">
         
         {/* Logo y Contacto */}
         <div className="space-y-4">

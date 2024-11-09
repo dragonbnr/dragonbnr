@@ -32,7 +32,7 @@ const HeroSection = () => {
       </div>
 
       <div className="absolute  left-0 right-0 mx-auto bottom-0  ">
-        <div className="w-full h-[250px] md:h-[500px] lg:h-[450px] xl:h-[450px] 2xl:h-[650px] ">
+        <div className="w-full h-[250px] md:h-[500px] lg:h-[450px] xl:h-[450px]  ">
           <Image
             src={"/images/home/hero/guardias.png"}
             width={1500}
