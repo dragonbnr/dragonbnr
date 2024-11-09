@@ -5,7 +5,7 @@ const Aliados = () => {
   return (
     <div className="w-full h-auto flex flex-col relative justify-center items-center py-[37px]">
       <div className='w-full h-full absolute z-0 '>
-        <Image src={"/images/home/aliados/bg.png"}
+        <Image src={"/images/home/aliados/bg2.png"}
         
         quality={100}
         layout='fill'

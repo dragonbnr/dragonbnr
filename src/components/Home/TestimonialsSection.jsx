@@ -128,7 +128,7 @@ const scrollRight = () => {
           />
         </button>
       )}
-      <h1 className="mb-4 text-[26px] lg:text-[48px] text-center text-white">
+      <h1 className="mb-4 text-[26px] lg:text-[48px] text-center text-white font-bold">
         Opiniones de <span className="text-[#ca1b2e] ">nuestros clientes</span>
       </h1>
       <div className="w-full flex   gap-4 overflow-x-auto relative   no-scrollbar pl-4 "
