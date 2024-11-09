@@ -16,7 +16,10 @@ function Navbar() {
     <>
       <div className="w-full h-[78px] flex justify-between items-center px-8  md:px-10 relative max-w-[1440px] min-w-sm mx-auto bg-black">
         {/* Logo */}
-        <div className="relative z-10 w-[34px] h-[48.86px]">
+        <div className="relative z-10 w-[34px] h-[48.86px] ">
+          <Image src="/images/logo.png" quality={100} width={150} height={150} alt="Logo" className="w-[34px] h-[48.86px] object-cover  " />
+        </div>
+        <div className="relative z-10 w-[34px] h-[48.86px] lg:hidden">
           <Image src="/images/logo.png" quality={100} width={150} height={150} alt="Logo" className="w-[34px] h-[48.86px] object-cover  " />
         </div>
 
@@ -30,7 +33,7 @@ function Navbar() {
         </div>
 
         {/* Enlaces del centro para versión de escritorio */}
-        <div className="hidden lg:flex gap-x-6 font-anton uppercase absolute left-1/2 transform -translate-x-1/2 text-white">
+        <div className="hidden lg:flex gap-x-16 font-anton absolute left-1/2 transform -translate-x-1/2 text-white">
         <Link
               href="/"
               className={router.pathname === "/" ? "font-bold" : ""}
