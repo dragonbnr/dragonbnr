@@ -44,7 +44,7 @@ function Navbar() {
               href="/Conocenos"
               className={router.pathname === "/Conocenos" ? "font-bold" : ""}
             >
-              Conocenos
+              Conócenos
             </Link>
             <Link
               href="/Servicios"
@@ -101,7 +101,7 @@ function Navbar() {
               onClick={toggleMenu}
               className={router.pathname === "/Conocenos" ? "font-bold" : ""}
             >
-              Conocenos
+              Conócenos
             </Link>
             <Link
               href="/Servicios"
@@ -153,14 +153,6 @@ function Navbar() {
                 className="cursor-pointer"
               />
               </Link>
-              <Image
-              alt="Linkein"
-              quality={100}
-                src={"/images/iconos/linkedin.png"}
-                width={"34"}
-                height={"34"}
-                className="cursor-pointer"
-              />
             </div>
           </div>
         </div>

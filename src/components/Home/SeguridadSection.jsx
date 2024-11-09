@@ -22,7 +22,7 @@ function SeguridadSection() {
       <p className="w-[87%]  text-justify text-white text-[10px] md:text-[16px] lg:text-[24px] font-normal leading-3 md:leading-[32px] mb-4 z-10">
         Protegemos lo que más te importa con soluciones de seguridad personalizadas, personal capacitado y tecnología de vanguardia. Confía en nuestra experiencia y compromiso para asegurar tu familia, empresa o bienes.
       </p>
-      <div className='w-full flex justify-center md:justify-start'>
+      <div className='hidden w-full md:flex justify-center md:justify-start'>
       <RedButton texto="Conócenos" url="/Conocenos" />
       </div>
       </div>

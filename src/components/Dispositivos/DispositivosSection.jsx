@@ -69,7 +69,7 @@ function DispositivosSection() {
           <h3 className="max-w-[220.70px] w-full text-center text-black text-[22px] md:text-[30px] font-bold leading-6 mb-4  ">
             Beneficios
           </h3>
-          <ul className="text-left mx-auto list-disc list-inside text-[10px] md:text-[18px] leading-3 md:leading-[24px] md:space-y-2 px-8">
+          <ul className="text-left mx-auto list-disc list-inside text-[10px] md:text-[18px] leading-3 md:leading-[24px] md:space-y-2 px-8 text-black ">
             <li>
               Atención personalizada 24/7 por profesionales para responder a
               emergencias.

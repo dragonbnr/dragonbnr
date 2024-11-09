@@ -41,13 +41,6 @@ function Redes() {
                 className="cursor-pointer lg:w-[56px] "
               />
               </Link>
-              <Image
-                src={"/images/iconos/linkedin.png"}
-                quality={100}
-                width={"34"}
-                height={"34"}
-                className="cursor-pointer lg:w-[56px] "
-              />
             </div>
             <a href="mailto:dragonblackandredsegprivada@hotmail.com" className="text-white my-4 lg:text-[33px] ">dragonblackandredsegprivada@hotmail.com</a>
             <h2 className="leading-6 lg:leading-[50px] mb-4 md:px-12">

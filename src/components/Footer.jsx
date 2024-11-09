@@ -112,13 +112,7 @@ const Footer = () => {
           >
             <FaInstagram className="text-xl hover:text-gray-400" />
           </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedinIn className="text-xl hover:text-gray-400" />
-          </a>
+          
         </div>
 
         <p className="text-xs mb-2 pt-4 border-t-2 border-white/20">
@@ -237,9 +231,6 @@ const Footer = () => {
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-xl hover:text-gray-400" />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedinIn className="text-xl hover:text-gray-400" />
             </a>
           </div>
         </div>

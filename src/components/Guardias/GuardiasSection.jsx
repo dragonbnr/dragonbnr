@@ -57,7 +57,7 @@ function GuardiasSection() {
           <h3 className="max-w-[220.70px] w-full  md:max-w-full text-center md:text-left text-black text-[22px] md:text-[30px] lg:text-[35px]  font-bold leading-6 md:leading-[34px] mb-4  ">
             ¿Qué ofrece nuestro servicio?
           </h3>
-          <ul className="text-left mx-auto list-disc list-inside text-[10px] md:text-[22px] lg:text-[24px]">
+          <ul className="text-left mx-auto list-disc list-inside text-[10px] md:text-[22px] lg:text-[24px] text-black">
             <li>Control de entradas y salidas al inmueble.</li>
             <li>Rondín y vigilancia en las diferentes áreas.</li>
             <li>Elaboración de bitácoras con informe de incidentes.</li>
@@ -70,7 +70,7 @@ function GuardiasSection() {
           <h3 className="max-w-[220.70px] w-full md:max-w-full text-center md:text-left  text-black text-[22px] md:text-[30px] lg:text-[35px] font-bold leading-6 md:leading-[34px] mb-4  ">
             Dirigido para todo tipo de instalaciones:
           </h3>
-          <ul className="lg:w-full text-center md:text-left mx-auto list-disc list-inside text-[10px] md:text-[22px] lg:text-[24px]">
+          <ul className="lg:w-full text-center md:text-left mx-auto list-disc list-inside text-[10px] md:text-[22px] lg:text-[24px] text-black">
             <li>Residencial o condominios </li>
             <li>Hoteles </li>
             <li>Empresas </li>
