@@ -20,7 +20,7 @@ function Navbar() {
           <Image src="/images/logo.png" quality={100} width={300} height={300} alt="Logo" className="w-[90%] h-full object-contain  " />
         </div>
         <div className="relative z-10 w-[34px] h-[48.86px] lg:hidden">
-          <Image src="/images/logo.png" quality={100} width={150} height={150} alt="Logo" className="w-[34px] h-[48.86px] object-cover  " />
+          <Image src="/images/logo.png" quality={100} width={300} height={300} alt="Logo" className="w-[34px] h-[48.86px] object-contain  " />
         </div>
 
         {/* Ícono del menú en versión móvil */}
