@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
+import emailjs from '@emailjs/browser';
 const Bolsa = () => {
+  const form = useRef();
+
   // Variantes de animación
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
@@ -16,6 +18,29 @@ const Bolsa = () => {
   const buttonHover = {
     scale: 1.05,
     transition: { duration: 0.3, ease: "easeInOut" },
+  };
+
+  // Maneja el envío del formulario
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID", // Reemplaza con tu SERVICE_ID
+        "YOUR_TEMPLATE_ID", // Reemplaza con tu TEMPLATE_ID
+        form.current,
+        "YOUR_USER_ID" // Reemplaza con tu PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Mensaje enviado exitosamente.");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Hubo un error al enviar el mensaje.");
+        }
+      );
   };
 
   return (
@@ -61,6 +86,8 @@ const Bolsa = () => {
       </motion.p>
 
       <motion.form
+        ref={form}
+        onSubmit={sendEmail}
         className="space-y-4 max-w-md mx-auto grid grid-cols-2 gap-x-4"
         initial="hidden"
         animate="visible"
@@ -74,6 +101,7 @@ const Bolsa = () => {
           <motion.input
             key={field.name}
             type={field.type}
+            name={field.name.toLowerCase()} // Asigna name para emailjs
             placeholder={field.name}
             className={`w-full px-4 py-2 border border-gray-300 rounded-md bg-transparent text-white text-[7.26px] md:text-[10px] placeholder:text-center ${field.colSpan}`}
             custom={index * 0.1 + 0.5}
@@ -83,6 +111,7 @@ const Bolsa = () => {
         ))}
 
         <motion.textarea
+          name="mensaje"
           placeholder="Mensaje"
           className="w-full px-4 py-2 border border-gray-300 rounded-md bg-transparent text-white text-[7.26px] md:text-[10px] placeholder:text-center h-32 resize-none col-span-2"
           custom={0.8}

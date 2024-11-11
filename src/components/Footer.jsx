@@ -32,13 +32,13 @@ const Footer = () => {
             <Link href="/Conocenos" className="block hover:underline">
               ¿Quiénes somos?
             </Link>
-            <Link href="/Conocenos#mision" className="block hover:underline">
+            <Link href="/Conocenos" className="block hover:underline">
               Misión
             </Link>
-            <Link href="/Conocenos#vision" className="block hover:underline">
+            <Link href="/Conocenos" className="block hover:underline">
               Visión
             </Link>
-            <Link href="/Conocenos#valores" className="block hover:underline">
+            <Link href="/Conocenos" className="block hover:underline">
               Valores
             </Link>
           </div>
@@ -59,7 +59,7 @@ const Footer = () => {
           <Link href="/Certificaciones" className="block hover:underline">
             Certificaciones
           </Link>
-          <Link href="#contactanos" className="block hover:underline">
+          <Link href="/Contacto" className="block hover:underline">
             Contáctanos
           </Link>
         </nav>
@@ -205,7 +205,7 @@ const Footer = () => {
           <Link href="/Certificaciones" className="block hover:underline">
             Certificaciones
           </Link>
-          <Link href="#contactanos" className="block hover:underline">
+          <Link href="/Contacto" className="block hover:underline">
             Contáctanos
           </Link>
           </ul>
@@ -226,10 +226,10 @@ const Footer = () => {
           </div>
          
           <div className="flex space-x-4  justify-center md:justify-start items-center">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/profile.php?id=61562424445331" target="_blank" rel="noopener noreferrer">
               <FaFacebookF className="text-xl hover:text-gray-400" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/dragonblackandredsegprivada/?hl=es" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-xl hover:text-gray-400" />
             </a>
           </div>
