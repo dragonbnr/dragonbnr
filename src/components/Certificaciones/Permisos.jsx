@@ -48,7 +48,7 @@ function Permisos() {
         initial="hidden"
         animate="visible"
       >
-        Proveemos sistemas de videovigilancia de alta resolución, conectados a un sistema central para monitoreo y grabación en tiempo real...
+       Nuestra empresa se distingue por operar bajo los más altos estándares de cumplimiento legal y profesionalismo en el ámbito de la seguridad privada. Contamos con todas las autorizaciones necesarias para ofrecer nuestros servicios, además de certificaciones que avalan la calidad de nuestras operaciones y nuestro compromiso con la seguridad y protección de nuestros clientes. 
       </motion.p>
 
       {/* Título Permisos */}

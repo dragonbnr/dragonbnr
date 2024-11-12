@@ -59,7 +59,7 @@ const HeroSection = () => {
         variants={fadeInUp}
       >
         <motion.div
-          className="w-[176.20px] h-[19.90px] relative flex-col justify-start items-start inline-flex"
+          className="w-[176.20px] h-[19.90px] lg:w-[350px] lg:h-[37px] relative flex-col justify-start items-start inline-flex"
           variants={scaleIn}
         >
           <Image
@@ -68,7 +68,7 @@ const HeroSection = () => {
             width={156}
             height={161}
             alt="Logo"
-            className="w-full h-full object-cover"
+            className="w-full  h-full object-cover"
           />
         </motion.div>
 

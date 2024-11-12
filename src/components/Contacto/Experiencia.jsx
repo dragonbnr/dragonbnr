@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
-const Experiencia = ({ setForm }) => {
+const Experiencia = ({ setForm, form }) => {
   // Variantes de animación
   const fadeIn = {
     hidden: { opacity: 0 },
@@ -13,6 +13,8 @@ const Experiencia = ({ setForm }) => {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 1, ease: 'easeOut', delay: 0.2 } },
   };
+
+
 
   return (
     <div className="w-full h-auto flex flex-col relative justify-center items-center py-[37px]">
@@ -54,18 +56,18 @@ const Experiencia = ({ setForm }) => {
         >
           <div className="w-[12.53px] h-[12.53px] md:w-[20px] md:h-[20px] lg:w-[33px] lg:h-[33px] bg-[#ca1b2e] rounded-full absolute" />
           <div
-            className="w-full h-[30px] md:h-[60px] bg-white rounded-tl-md rounded-bl-md border-l-2 border-[#ca1b2e] cursor-pointer flex justify-center items-center"
+            className={`w-full h-[30px] md:h-[60px] ${form == "cotizar"? "bg-white text-black" : "bg-black text-white"} rounded-tl-md rounded-bl-md border-l-2 border-[#ca1b2e] cursor-pointer flex justify-center items-center duration-300 transition-all`}
             onClick={() => setForm("cotizar")}
           >
-            <span className="text-center text-black text-[10px] md:text-[17px] leading-[10.94px]">
+            <span className={`text-center  text-[10px] md:text-[17px] leading-[10.94px]`}>
               Cotiza nuestros servicios
             </span>
           </div>
           <div
-            className="w-full h-[30px] md:h-[60px] bg-black rounded-tr-md rounded-br-md border-r-2 border-[#ca1b2e] cursor-pointer flex justify-center items-center"
+            className={`w-full h-[30px] md:h-[60px] ${form == "bolsa"? "bg-white text-black" : "bg-black text-white"} rounded-tr-md rounded-br-md border-r-2 border-[#ca1b2e] cursor-pointer flex justify-center items-center duration-300 transition-all`}
             onClick={() => setForm("bolsa")}
           >
-            <span className="text-center text-white text-[10px] md:text-[17px] leading-[10.94px]">
+            <span className="text-center  text-[10px] md:text-[17px] leading-[10.94px]">
               Bolsa de Trabajo
             </span>
           </div>

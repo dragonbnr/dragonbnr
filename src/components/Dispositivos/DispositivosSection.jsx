@@ -141,7 +141,7 @@ function DispositivosSection() {
         initial="hidden"
         animate="visible"
       >
-        Los guardias intramuros pasan mediante filtros en el área de selección de personal, para contar con los elementos más aptos para desarrollar sus funciones, cumpliendo cabalmente con las actividades encomendadas, y siendo supervisados por sus superiores, respetando las reglas y adaptándose a cada sector donde se prestará el servicio.
+        Ofrecemos productos de alta calidad y asesoría con personal capacitado para responder con profesionalismo ante cualquier duda que tenga, para cumplir con los requisitos únicos de cada cliente. Con el objetivo  de mantener seguros a personas, recursos materiales o patrimonios de cualquier situación que pueda alterar el orden,  evitar riesgos posibles. 
       </motion.p>
 
         <RedButton texto="Ver servicios" url="/Servicios" />

@@ -8,6 +8,7 @@ function Conocenos() {
   const [form, setForm] = useState("");
   return (
     <div>
+      {console.log(form)}
         <Hero/>
        <Experiencia
         setForm={setForm}
