@@ -77,7 +77,7 @@ function Quienes() {
             initial="hidden"
             animate={controls}
           >
-            Somos una empresa mexicana de seguridad privada, nuestra prioridad es la protección de nuestros clientes, la transparencia y ética, ofreciendo servicios de seguridad con soluciones integrales, basándonos en las necesidades específicas de cada cliente. Contamos con personal altamente capacitado, acompañado de innovación y tecnología que permita desarrollar nuestro trabajo de forma eficiente, adaptándonos a los cambios constantes en el mercado de la seguridad, comprometidos en proteger tu familia, empresa, o bienes.
+            Somos una empresa mexicana de seguridad privada, nuestra prioridad es la protección de nuestros clientes, la transparencia y ética, ofreciendo servicios de seguridad con soluciones integrales, basándonos en las necesidades específicas de cada cliente. Contamos con personal altamente capacitado, acompañado de innovación y tecnología que permita desarrollar nuestro trabajo de forma eficiente, adaptándonos a los cambios constantes en el mercado de la seguridad, comprometidos en proteger a tu familia, empresa, o bienes.
           </motion.p>
 
           {/* Botón oculto en dispositivos móviles, con animación independiente */}

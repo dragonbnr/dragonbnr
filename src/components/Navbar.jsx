@@ -16,11 +16,11 @@ function Navbar() {
     <>
       <div className="w-full h-[78px] flex justify-between items-center px-8  md:px-10 relative max-w-[1440px] min-w-sm mx-auto bg-black ">
         {/* Logo */}
-        <div className="hidden absolute -bottom-[100px] lg:flex flex-col justify-center items-center rounded-[20px] bg-black z-10 w-[170px] h-[170px] ">
+        <div className="hidden absolute -bottom-[120px] lg:flex flex-col justify-center items-center rounded-[20px] bg-black z-10 w-[200px] h-[200px] ">
           <Image src="/images/logo.png" quality={100} width={300} height={300} alt="Logo" className="w-[90%] h-full object-contain  " />
         </div>
-        <div className="relative z-10 w-[34px] h-[48.86px] lg:hidden">
-          <Image src="/images/logo.png" quality={100} width={300} height={300} alt="Logo" className="w-[34px] h-[48.86px] object-contain  " />
+        <div className="relative z-10 w-[50px] h-[70px] lg:hidden">
+          <Image src="/images/logo.png" quality={100} width={300} height={300} alt="Logo" className="w-[50px] h-[70px] object-contain  " />
         </div>
 
         {/* Ícono del menú en versión móvil */}

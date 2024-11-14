@@ -90,7 +90,7 @@ function GuardiasSection() {
       {/* Secciones de características */}
       <div className="w-[87%] md:w-full md:px-12 lg:px-20 flex flex-col md:flex-row md:gap-8 h-auto mt-[20px] mb-4 z-10">
         <motion.div
-          className="w-full h-[212px] md:h-[550px] bg-white rounded-lg border-l-4 border-[#ca1b2e] flex flex-col items-center md:items-start justify-center lg:justify-start md:py-8 lg:py-10 md:px-4"
+          className="w-full h-[212px] md:h-[650px] bg-white rounded-lg border-l-4 border-[#ca1b2e] flex flex-col items-center md:items-start justify-center lg:justify-start md:py-8 lg:py-10 md:px-4"
           variants={fadeInUpWithDelay(1)}
           initial="hidden"
           animate="visible"
@@ -104,11 +104,12 @@ function GuardiasSection() {
             <li>Elaboración de bitácoras con informe de incidentes.</li>
             <li>Reporte de anomalías dentro de su servicio.</li>
             <li>Mantener al mínimo los riesgos que puedan presentarse.</li>
+            <li>Personal registrado en la STPS y SSP Federal con C.U.I.P.</li>
           </ul>
         </motion.div>
 
         <motion.div
-          className="w-full h-[299px] md:h-[550px] bg-white rounded-lg border-l-4 border-[#ca1b2e] flex flex-col items-center md:items-start justify-center md:py-8 md:px-4 mt-8 md:mt-0"
+          className="w-full h-[299px] md:h-[650px] bg-white rounded-lg border-l-4 border-[#ca1b2e] flex flex-col items-center md:items-start justify-center md:py-8 md:px-4 mt-8 md:mt-0"
           variants={fadeInUpWithDelay(1.2)}
           initial="hidden"
           animate="visible"
@@ -128,6 +129,8 @@ function GuardiasSection() {
             <li>Hospitales</li>
             <li>Laboratorios</li>
             <li>Gimnasios</li>
+            <div className='md:h-[30px] xl:h-[100px]'/>
+            
           </ul>
         </motion.div>
       </div>

@@ -94,7 +94,7 @@ const Footer = () => {
         </a>
 
         <p className="text-sm my-4">
-          Horario de atención:<br/> Lunes a Viernes de 9:00 a 18:00 hrs.
+          Horario de atención:<br/> Lunes a Viernes de 9:00 a 18:00 hrs. <br/> Sábados de 9:00 a 14:00 hrs.
         </p>
 
         <div className="flex justify-center space-x-4 mb-6">
@@ -116,7 +116,7 @@ const Footer = () => {
         </div>
 
         <p className="text-xs mb-2 pt-4 border-t-2 border-white/20">
-          Dragon Black & Red S.A. de C.V. - México, {new Date().getFullYear()}
+          Dragon Black & Red Seguridad Privada Al Limite S.A. de C.V. - México, {new Date().getFullYear()}
         </p>
         <a href="#aviso" className="text-xs hover:underline">
           Aviso de Privacidad
@@ -165,7 +165,8 @@ const Footer = () => {
       WhatsApp: 55 2726 3187
     </a>
   </p>
-          <p className="text-sm">Horario de atención: <br/> Lunes a Viernes de 9:00 a 18:00 hrs.</p>
+          <p className="text-sm">Horario de atención: <br/> Lunes a Viernes de 9:00 a 18:00 hrs. <br/>
+          Sábados de 9:00 a 14:00 hrs. </p>
         </div>
 
         {/* Navegación */}
@@ -215,14 +216,14 @@ const Footer = () => {
        <div className="flex justify-between items-center border-t-2 mt-4 border-white/20 ">
         <div className="flex items-center mt-4 gap-4 ">
           <span className="text-md">
-            Dragon Black & Red S.A. de C.V.
+            Dragon Black & Red Seguridad Privada Al Limite S.A. de C.V.
           </span>
           <span>
             México, {new Date().getFullYear()}
             </span>
-          <a href="#aviso-de-privacidad" className="text-md hover:underline">
+          <div className="text-md hover:underline">
             Aviso de Privacidad
-          </a>
+          </div>
           </div>
          
           <div className="flex space-x-4  justify-center md:justify-start items-center">

@@ -93,6 +93,14 @@ function DispositivosSection() {
       >
         Te ofrecemos la implementación de proyectos de seguridad y videovigilancia en entornos industriales, oficinas y residenciales.
       </motion.p>
+      <motion.p
+        className="w-[345px] md:w-[700px] text-justify text-white text-[10px] md:text-[18px] leading-3 md:leading-[24px] md:text-center z-10 mt-2 md:mt-4"
+        variants={fadeInUpWithDelay(1.0)}
+        initial="hidden"
+        animate="visible"
+      >
+        Especialistas en Seguridad y Videovigilancia, Monitoreo de Alarmas, Control de Acceso Vehicular y Peatonal, Cercas Electrificadas, Video Portero, Sensores de Movimiento y más.
+      </motion.p>
 
       {/* Sección de beneficios */}
       <div className="w-full flex flex-col md:flex-row justify-center items-center md:gap-4 md:px-12">
@@ -118,30 +126,37 @@ function DispositivosSection() {
         </motion.div>
 
         <motion.div
-          className="w-[87%] h-auto md:h-[600px] mt-[20px] mb-4 z-10"
-          variants={fadeInUpWithDelay(1.4)}
+          className="w-[87%] h-auto mt-[20px] mb-4 z-10"
+          variants={fadeInUpWithDelay(1.2)}
           initial="hidden"
           animate="visible"
         >
-          <Image
-            src="/images/dispositivos/camara3.png"
-            width={1500}
-            height={1500}
-            quality={100}
-            alt="Cámara"
-            className="object-cover w-full h-full rounded-[16px]"
-          />
+          <div className="w-full h-[212px] md:h-[600px] bg-white rounded-lg border-l-4 border-[#ca1b2e] flex flex-col items-center justify-center">
+            <h3 className=" w-full text-center text-black text-[22px] md:text-[30px] font-bold leading-6 mb-4">
+              Servicios Incluidos
+            </h3>
+            <ul className="text-left mx-auto list-disc list-inside text-[10px] md:text-[18px] leading-3 md:leading-[24px] md:space-y-2 px-8 text-black no-underline">
+              <li>Instalación profesional, con garantía extendida y planes de servicio.</li>
+              <li>Solución integral con equipos especializados de profesionales altamente capacitados en seguridad y vigilancia.</li>
+              <li>Técnicos de instalación certificados y capacitados para colocar sistemas electrónicos en puntos estratégicos y vulnerables.</li>
+              <li>Análisis previo o levantamiento para identificar las mejores áreas de prevención.</li>
+              <div className='md:h-[80px] lg:h-[80px]'></div>
+            </ul>
+          </div>
         </motion.div>
+
+       
       </div>
 
       {/* Texto adicional y botón con animación de entrada */}
+      
       <motion.p
         className="w-[87%] md:w-full text-justify text-white text-[10px] md:text-[18px] font-normal leading-3 md:leading-[24px] mb-4 z-10 md:px-12"
         variants={fadeInUpWithDelay(1.6)}
         initial="hidden"
         animate="visible"
       >
-        Ofrecemos productos de alta calidad y asesoría con personal capacitado para responder con profesionalismo ante cualquier duda que tenga, para cumplir con los requisitos únicos de cada cliente. Con el objetivo  de mantener seguros a personas, recursos materiales o patrimonios de cualquier situación que pueda alterar el orden,  evitar riesgos posibles. 
+        Los Instalación de Cámaras de Seguridad son un paquetes básico pre armado de fábrica de fácil instalación el cual te permite monitorear desde cualquier parte del mundo diferentes puntos al mismo tiempo las 24 hrs.
       </motion.p>
 
         <RedButton texto="Ver servicios" url="/Servicios" />
