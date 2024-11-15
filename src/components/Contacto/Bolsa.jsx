@@ -20,21 +20,28 @@ const Bolsa = () => {
     transition: { duration: 0.3, ease: "easeInOut" },
   };
 
+  const serviceId = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
+  const templateId = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_BOLSA_ID;
+  const userId = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_PUBLIC_KEY_ID;
+
+
   // Maneja el envío del formulario
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID", // Reemplaza con tu SERVICE_ID
-        "YOUR_TEMPLATE_ID", // Reemplaza con tu TEMPLATE_ID
-        form.current,
-        "YOUR_USER_ID" // Reemplaza con tu PUBLIC_KEY
-      )
+    .sendForm(
+      serviceId, // Reemplaza con tu SERVICE_ID
+      templateId, // Reemplaza con tu TEMPLATE_ID
+      form.current,
+      userId // Reemplaza con tu PUBLIC_KEY
+    )
       .then(
         (result) => {
           console.log(result.text);
           alert("Mensaje enviado exitosamente.");
+          form.current.reset(); // Restablece los campos del formulario
+
         },
         (error) => {
           console.log(error.text);
@@ -96,7 +103,7 @@ const Bolsa = () => {
         {[
           { name: "Nombre", type: "text", colSpan: "col-span-2" },
           { name: "Correo", type: "email", colSpan: "" },
-          { name: "Teléfono", type: "tel", colSpan: "" },
+          { name: "Telefono", type: "tel", colSpan: "" },
         ].map((field, index) => (
           <motion.input
             key={field.name}

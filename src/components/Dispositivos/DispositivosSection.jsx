@@ -156,7 +156,15 @@ function DispositivosSection() {
         initial="hidden"
         animate="visible"
       >
-        Los Instalación de Cámaras de Seguridad son un paquetes básico pre armado de fábrica de fácil instalación el cual te permite monitorear desde cualquier parte del mundo diferentes puntos al mismo tiempo las 24 hrs.
+        Ofrecemos productos de alta calidad y asesoría con personal capacitado para responder con profesionalismo ante cualquier duda que tenga, para cumplir con los requisitos únicos de cada cliente. Con el objetivo  de mantener seguros a personas, recursos materiales o patrimonios de cualquier situación que pueda alterar el orden,  evitar riesgos posibles. 
+      </motion.p>
+      <motion.p
+        className="w-[87%] md:w-full text-justify text-white text-[10px] md:text-[18px] font-normal leading-3 md:leading-[24px] mb-4 z-10 md:px-12"
+        variants={fadeInUpWithDelay(1.6)}
+        initial="hidden"
+        animate="visible"
+      >
+        La Instalación de Cámaras de Seguridad son un paquete básico pre armado de fábrica de fácil instalación el cual te permite monitorear desde cualquier parte del mundo diferentes puntos al mismo tiempo las 24 hrs.
       </motion.p>
 
         <RedButton texto="Ver servicios" url="/Servicios" />

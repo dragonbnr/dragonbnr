@@ -20,22 +20,25 @@ const Cotizar = () => {
     scale: 1.05,
     transition: { duration: 0.3, ease: "easeInOut" },
   };
+  const serviceId = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
+  const templateId = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_COTIZAR_ID;
+  const userId = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_PUBLIC_KEY_ID;
 
   // Maneja el envío del formulario
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID", // Reemplaza con tu SERVICE_ID
-        "YOUR_TEMPLATE_ID", // Reemplaza con tu TEMPLATE_ID
+        serviceId, // Reemplaza con tu SERVICE_ID
+        templateId, // Reemplaza con tu TEMPLATE_ID
         form.current,
-        "YOUR_USER_ID" // Reemplaza con tu PUBLIC_KEY
+        userId // Reemplaza con tu PUBLIC_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
           alert("Mensaje enviado exitosamente.");
+          form.current.reset(); // Restablece los campos del formulario
         },
         (error) => {
           console.log(error.text);
@@ -89,9 +92,9 @@ const Cotizar = () => {
       >
         {[{ name: "Nombre", type: "text", colSpan: "col-span-2" },
           { name: "Correo", type: "email", colSpan: "col-span-2 md:col-span-1" },
-          { name: "Teléfono", type: "tel", colSpan: "col-span-2 md:col-span-1" },
+          { name: "Telefono", type: "tel", colSpan: "col-span-2 md:col-span-1" },
           { name: "Servicio", type: "text", colSpan: "" },
-          { name: "Tipo de empresa", type: "text", colSpan: "" },
+          { name: "empresa", type: "text", colSpan: "" },
         ].map((field, index) => (
           <motion.input
             key={field.name}

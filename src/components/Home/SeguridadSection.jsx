@@ -73,7 +73,7 @@ function SeguridadSection() {
           >
             Protegemos lo que más te importa con soluciones de seguridad personalizadas, personal
             capacitado y tecnología de vanguardia. Confía en nuestra experiencia y compromiso para
-            asegurar tu familia, empresa o bienes.
+            asegurar a tu familia, empresa o bienes.
           </motion.p>
 
           <motion.div
