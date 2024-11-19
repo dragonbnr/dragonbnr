@@ -71,8 +71,8 @@ function SeguridadSection() {
             className="w-[87%] text-justify text-white text-[10px] md:text-[16px] lg:text-[24px] font-normal leading-3 md:leading-[32px] mb-4 z-10"
             variants={fadeIn}
           >
-            Protegemos lo que más te importa con soluciones de seguridad personalizadas, personal
-            capacitado y tecnología de vanguardia. Confía en nuestra experiencia y compromiso para
+            Protegemos lo que más te importa con soluciones de seguridad personalizadas, elementos
+            capacitados y tecnología de vanguardia. Confía en nuestra experiencia y compromiso para
             asegurar a tu familia, empresa o bienes.
           </motion.p>
 
